@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="900" height="700"></canvas>
+
+    <div class="cores">
+        <button class="botaoCores" onclick="trocaCorPreto()" id="corPreto"></button>
+        <button class="botaoCores" onclick="trocaCorAzul()" id="corAzul"></button>
+        <button class="botaoCores" onclick="trocaCorVerde()" id="corVerde"></button>
+        <button class="botaoCores" onclick="trocaCorVerde2()" id="corVerde2"></button>
+        <button class="botaoCores" onclick="trocaCorMarrom()" id="corMarrom"></button>
+        <button class="botaoCores" onclick="trocaCorMarrom2()" id="corMarrom2"></button>
+        <button class="botaoCores" onclick="trocaCorLaranja()" id="corLaranja"></button>
+        <button class="botaoCores" onclick="trocaCorAmarelo()" id="corAmarelo"></button>
+        <button class="botaoCores" onclick="trocaCorBranco()" id="corBranco"></button>
+        <button class="botaoCores" onclick="trocaCorVermelho()" id="corVermelho"></button>
+    </div>
+
+    <div class="largura">
+        <button class="botaoLargura" onclick="aumentaLargura()">+</button>
+        <button class="botaoLargura" onclick="diminuiLargura()">-</button>
+
+        <h1>Largura do Pincel</h1>
+        <p id="exibirLargura"></p>
+    </div>
+
+    <!-- Script Java -->
+    <script src="main.js"></script>
+    <!-- fim Script Java -->
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+canvas {
+    border: 2px solid #000;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* CORES */
+/* base */
+.botaoCores {
+    display: flex;
+     width: 25px;
+     height: 25px;
+
+     margin: 10px;
+}
+
+.cores {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 100px;
+
+    margin: 0px 50px 0px 0px;
+}
+/* fim base */
+/* design cores */
+#corPreto {
+    background-color: #000;
+}
+
+#corAzul {
+    background-color: #0095ff;
+}
+
+#corVerde {
+    background-color: #00ff00;
+}
+
+#corVerde2 {
+    background: #008000;
+}
+
+#corMarrom {
+    background-color: #803f3f;
+}
+
+#corMarrom2 {
+    background-color: #673434;
+}
+
+#corLaranja {
+    background-color: #ff8c00;
+}
+
+#corAmarelo {
+    background-color: #ffff00;
+}
+
+#corBranco {
+    background-color: #fff;
+}
+
+#corVermelho {
+    background-color: #ff0000;
+}
+/* fim design cores */
+/* FIM CORES */
+/* LARGURA */
+.botaoLargura {
+    display: flex;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+    margin: 10px;
+
+    align-items: center;
+    justify-content: center;
+
+    background-color: #fff;
+
+    font: 500 50px "Arial";
+}
+/* FIM LARGURA */
